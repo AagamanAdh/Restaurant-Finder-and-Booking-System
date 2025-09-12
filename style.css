@@ -1,0 +1,255 @@
+body{
+    background-color: #e8e8e9;
+    margin: 0; 
+    padding: 0
+}
+
+
+.headerlogin {
+      background-color: #0e3013;
+      display: flex;
+      align-items: center;
+      padding: 15px 20px;
+      color: white;
+      
+      
+    }
+
+.headerlogin .logologin {
+      font-size: 22px;
+      font-weight: bold;
+    }
+
+.logoHome{
+    color: white;
+
+}
+
+.container{
+    background-color: #fff;
+    width: 400px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 30px;
+    
+    border-radius: 10px;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+.loginTitle{
+    text-align: center;
+     font-weight: 600;
+     color: #0e3013;
+}
+.logininput{width: 400px;
+    height: 40px;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid #b6b8bd;
+    margin: 8px 0;
+}
+.loginbutton{
+    width: 400px;
+    height: 40px;
+    border-radius: 10px;
+    border: solid 0.5px;
+    font-size: 18px;
+    background-color:#0e3013;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.loginFormP{
+    text-align: center;
+}
+
+
+
+
+/*---------------------------------Register page---------------------------------------------------*/
+
+.headerRegister {
+      background-color: #0e3013;
+      display: flex;
+      align-items: center;
+      padding: 15px 20px;
+      color: white;
+      
+    }
+
+.headerRegister .logoRegister {
+      font-size: 22px;
+      font-weight: bold;
+    }
+
+.registercontainer{
+    background-color: #fff;
+    width: 400px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 30px;
+    
+    border-radius: 10px;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+.registerInput{width: 400px;
+    height: 40px;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid #b6b8bd;
+    margin: 8px 0;
+}
+.registerButton{
+    width: 400px;
+    height: 40px;
+    border-radius: 10px;
+    border: solid 0.5px;
+    font-size: 18px;
+    background-color:#0e3013;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+
+/*----------------------------------------home page-----------------------------------------------------------*/
+.headerHome {
+      display: flex;           
+        justify-content: space-between; /* pushes items to edges */
+        align-items: center;     
+        background-color: #0e3013; 
+        padding: 10px 20px; 
+      
+    }
+.menuItemDiv{
+    display: flex;
+    gap: 20px;
+    padding-right: 40px;
+}
+
+.menuItemDiv a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 10px 30px;
+    font-size: 15px;
+}
+
+.headerHome .logoHome {
+      font-size: 22px;
+      font-weight: bold;
+    }
+.logoout a {
+  text-decoration: none;
+  color: white;  
+  font-weight: bold;
+  padding-right: 40px;
+}
+.menuItem{
+    padding-right: 0%;
+}
+
+
+/*---------------------------------------Suggestion table---------------------------------------------*/
+
+.imp{
+    color: red;
+}
+.suggestionForm label{
+    width: 150px;
+    display: inline-block;
+    padding-left: 30px;
+    font-size: 18px;
+}
+.fullContainer h2{
+    padding-left: 30px;
+    
+}
+.suggestionForm input{
+    width: 250px;
+    height: 25px;
+    font-size: 14px;
+}
+
+
+/*---------------------------------------Dashboard content---------------------------------------------*/
+.banner{
+    display: block;
+    margin: 0px;
+    padding: 0px;
+}
+.banner img{
+    width: 100%;
+    display: block;
+    margin: 0px;
+    padding: 0px;
+}
+
+.cuisinesContainer{
+    display: block;
+    margin: 0px;
+    padding: 0px;
+    background-color: #0e3013;
+}
+.cuisines {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+
+    .cuisine-card {
+      text-align: center;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      padding: 10px;
+      background: #fff;
+      cursor: pointer;
+      
+    }
+    .cuisine-card img {
+      width: 60px;
+      height: 60px;
+      object-fit: cover;
+      border-radius: 50%;
+      margin-bottom: 8px;
+    }
+
+    .cuisine-card p {
+      font-size: 14px;
+      font-weight: 500;
+      margin: 0;
+    }
+
+    .cuisinesContainer h3{
+        text-align: center;
+        margin: 0px;
+        color: white;
+        font-size: 30px;
+        padding-top: 10px;
+    }
+
+    /*---------------------------------------ForgotPassword---------------------------------------------*/
+    .ForgotForm input
+    { 
+        padding: 10px; 
+        margin: 10px 0; 
+        width: 100%; }
+    .ForgotForm button
+    { 
+        padding: 10px; 
+        margin: 10px 0; 
+        width: 100%; 
+        background-color: #0e3013; 
+        color: white; 
+        border: none; }
+    .Forgotpasswordcontainer
+    { 
+         
+        margin: auto; }
+    .forgotformdiv{
+        max-width: 400px;
+        margin: auto;
+    }
+ 
